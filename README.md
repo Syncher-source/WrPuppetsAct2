@@ -94,7 +94,7 @@ and runs without arguments:
 ```
 the server receives packets on port 50027 so if you plan to set it up behind a firewall or a router make sure to [route the port](https://setuprouter.com/)
 
-If you are without a public static ip address, you can check [duckdns.org](https://www.duckdns.org/install.jsp) for a free one
+If you are without a public static ip address, you can check [duckdns.org](https://www.duckdns.org/install.jsp) for a free dns
 
 
 ## Contacts
