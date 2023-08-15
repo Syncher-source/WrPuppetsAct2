@@ -110,6 +110,10 @@ the server receives packets on port 50027 so if you plan to set it up behind a f
 
 If you are without a public static ip address, you can check [duckdns.org](https://www.duckdns.org/install.jsp) for a free dns
 
+## Known bugs
+
+Physics bones are currently not working in the shipping build, only the PIE
+
 
 ## Contacts
 Discord: \_VentiSette\_\_
