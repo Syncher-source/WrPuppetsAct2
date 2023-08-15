@@ -10,6 +10,9 @@ Teaser (click to play):
 
 ## Requirements
 The client runs on windows 10/11 supporting any OpenXR/SteamVR hardware, the server is a udp echoing C program and can run on any unix systems.
+
+The current Unreal Engine version used is 5.2.1
+
 A demo default server is set in the config of the release and currently up and running at: wrpuppets.duckdns.org on a raspeberry pi.
 
 ## Set-up OpenXR hadrware
@@ -28,9 +31,13 @@ Click on the following image to see a video showing how to download and configur
 
 ## Design assumptions and project aim
 The main idea is to allow a private community of people to setup their own server and their own world/stage: a space ship, a medieval castle, a music hall, whatever and to role play the characters i.e. the avatars, the puppets, or just vibe together listening to the music or whatever you want to do with your homies in VR.
+
 The project was made to be very simple but also to actually work supported by the best 3d tech. i.e. the Unreal Engine, there is no cyber security or drm of any kind of and the server can be easily broken by a malicious user.
+
 They aim for the project are private communities of people already knowing and trusting each other and willing to share their VR experiences in a cooperative way so everybody is expected to respect the rules to make it work.
+
 Avatars are shared among the users with a standard file format, VRM, without any copy protection.
+
 It was developed in less than 300 hours, is more a proof of concept than a real project BUT it works, still is full of bugs and need optimizations.
 
 
