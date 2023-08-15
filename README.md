@@ -12,12 +12,19 @@ Teaser (click to play):
 The client runs on windows 10/11 supporting any OpenXR/SteamVR hardware, the server is a udp echoing C program and can run on any unix systems.
 A demo default server is set in the config of the release and currently up and running at: wrpuppets.duckdns.org on a raspeberry pi.
 
+## Set-up OpenXR hadrware
+This project was tested with Valve Index controllers, an HTC Vive Pro, HTC Vive, Quest, HTC wands, Quest controllers and 3 vive trackers. Setup the openxr under SteamVR Settings > Developer
 
-## Set-up and first run
-Click on the following image to check how to set-up the vr hardware for first run, it is from Act1 but still applys:
+![openxr](https://github.com/Syncher-source/WrPuppets/blob/main/README_images/openxr.jpeg)
 
-[![setup_details](https://github.com/Syncher-source/WrPuppets/blob/main/README_images/Scaled.png)](https://github.com/Syncher-source/WrPuppets/blob/main/setup.md)
+and setup roles for trackers under SteamVR Settings > Controllers > MANAGE VIVE TRACKERS
 
+![trackers](https://github.com/Syncher-source/WrPuppets/blob/main/README_images/trackers.png)
+
+## Download an avatar and run WrPuppets 
+Click on the following image to see a video showing how to download and configure an avatar in wrpuppets, you should set a random unique number between 1 and 1023 as an id (click to play):
+
+[![firstrun](https://github.com/Syncher-source/WrPuppets/blob/main/README_images/NotScaled.png)](https://youtu.be/HV2_aYSd7Ks)
 
 ## Design assumptions and project aim
 The main idea is to allow a private community of people to setup their own server and their own world/stage: a space ship, a medieval castle, a music hall, whatever and to role play the characters i.e. the avatars, the puppets, or just vibe together listening to the music or whatever you want to do with your homies in VR.
@@ -32,7 +39,7 @@ Add more .vrm files to WrPuppets\Content\Puppets to add more avatars, make sure 
 
 Edit the "puppet" field in: WrPuppets\Content\config.json to specify the number of the avatar you want to use
 
-Avatar file should use a number between 0 and 1023 as a file name, example: 27.vrm, on the same server are not allow same ids so each user should choose a different one, rn if you want more users with the same avatar just made a copy of it and change its name.
+Avatar file should use a number between 1 and 1023 as a file name, example: 27.vrm, on the same server are not allow same ids so each user should choose a different one, rn if you want more users with the same avatar just made a copy of it and change its name.
 
 
 ## Changing the server address
