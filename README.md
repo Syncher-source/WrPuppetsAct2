@@ -15,7 +15,7 @@ The current Unreal Engine version used is 5.2.1
 
 A demo default server is set in the config of the release and currently up and running at: wrpuppets.duckdns.org on a raspeberry pi.
 
-## Set-up OpenXR hadrware
+## Set-up OpenXR hardware
 This project was tested with Valve Index controllers, an HTC Vive Pro, HTC Vive, Quest, HTC wands, Quest controllers and 3 vive trackers. Setup the openxr under SteamVR Settings > Developer
 
 ![openxr](https://github.com/Syncher-source/WrPuppets/blob/main/README_images/openxr.jpeg)
