@@ -9,7 +9,7 @@ Teaser (click to play):
 
 
 ## Requirements
-The client runs on windows 10/11 supporting any OpenXR/SteamVR hardware, the server is a udp echoing C program and can run on any unix systems.
+The client runs on windows 10/11 supporting any OpenXR/SteamVR hardware, minimum gpu requirement is rtx2080, the server is a udp echoing C program and can run on any unix systems.
 
 The current Unreal Engine version used is 5.2.1
 
@@ -110,9 +110,15 @@ the server receives packets on port 50027 so if you plan to set it up behind a f
 
 If you are without a public static ip address, you can check [duckdns.org](https://www.duckdns.org/install.jsp) for a free dns
 
-## Known bugs
+## Known bugs and issues
 
-Physics bones are currently not working in the shipping build, only the PIE
+* Physics bones are currently not working in the shipping build, only the PIE
+
+* Calibration has issues if not done at origin
+
+* Rotation should account for hips position
+
+* Change calibration key since trigger can be pressed too easily
 
 
 ## Contacts
