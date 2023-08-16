@@ -24,6 +24,8 @@ and setup roles for trackers under SteamVR Settings > Controllers > MANAGE VIVE 
 
 ![trackers](https://github.com/Syncher-source/WrPuppets/blob/main/README_images/trackers.png)
 
+currently on 3 trackers, one for hips and one for each feet/ankle are supported
+
 ## Download an avatar and run WrPuppets 
 Click on the following image to see a video showing how to download and configure an avatar in wrpuppets, you should set a random unique number between 1 and 1023 as an id (click to play):
 
