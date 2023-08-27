@@ -13,7 +13,7 @@ The client runs on windows 10/11 supporting any OpenXR/SteamVR hardware, minimum
 
 The current Unreal Engine version used is 5.2.1
 
-A demo default server is set in the config of the release and currently up and running at: wrpuppets.duckdns.org on a raspeberry pi.
+A demo default server is set in the config of the release as: wrpuppets.duckdns.org and is ready to run on a raspeberry pi, contact me to turn it on.
 
 ## Set-up OpenXR hardware
 This project was tested with Valve Index controllers, an HTC Vive Pro, HTC Vive, Quest, HTC wands, Quest controllers and 3 vive trackers. Setup the openxr under SteamVR Settings > Developer
@@ -114,14 +114,11 @@ If you are without a public static ip address, you can check [duckdns.org](https
 
 ## Known bugs and issues
 
-* Physics bones are currently not working in the shipping build, only the PIE
+* Avatar controller rotation should account for head rotation and position instead to orbit around pawn origin, to implement this without jitter looks likes changes to the engine are required, for now is disabled
 
-* Calibration has issues if not done at origin
+* Calibration has issues if not done at begin, restart the application to recalibrate
 
-* Rotation should account for hips position
-
-* Change calibration key since trigger can be pressed too easily
-
+* Contacts among avatars are not working when the .vrm is runtime loaded
 
 ## Contacts
 Discord: \_VentiSette\_\_
